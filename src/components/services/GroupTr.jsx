@@ -10,23 +10,16 @@ function GroupTr() {
 
   return (
     <>
-      <Button className="btn-brand" onClick={handleShow}>
+      <Button className="btn-courses" onClick={handleShow}>
         Подробнее
       </Button>
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Груповые тренировки</Modal.Title>
+          <Modal.Title>Групповые тренировки</Modal.Title>
         </Modal.Header>
         <Modal.Body className='service--card'>
-            <p>Груповые тренировки проводятся в Йога студиях по расписанию. </p>
-            <p>Расписание занятий:</p>
-            <p>ДЖИВАМУКТИ ЙОГА: SPIRITUAL WARRIOR</p>
-            <ul>
-                <li>ПН: 8:30 - 9:45 <a href="https://www.holiyoga.ru/timetable" target="_blank" className='custom-link'>Студия HOLI Yoga</a> </li>
-                <li>СБ: 10:15 - 11:30 <a href="http://nym-yoga.com/practice/" target="_blank" className='custom-link'>Студия NYM Yoga</a> </li>
-                <li>СБ: 13:00 - 14:15 <a href="https://www.holiyoga.ru/timetable" target="_blank" className='custom-link'>Студия HOLI Yoga</a> </li>
-            </ul>
+            <p>Групповые тренировки проводятся в Йога студиях по расписанию. </p>
             <p>Так же возможно проведение корпоративной йоги в удобном для Вас зале. Условия проведения и подробную информацию можно уточнить в <a href="https://t.me/ReginYogaChat" target="_blank" className='custom-link'>телеграм канале</a>.</p>
 
         </Modal.Body>

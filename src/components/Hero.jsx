@@ -12,7 +12,7 @@ function Hero() {
                 <Col >
                 <h1 className="display-2 hero--title" data-aos="fade-up" > <span className="hero--second-text">Добро пожаловать! Меня зовут </span><br/><span className="hero--name">Регина Коропат</span> </h1>
                 <h4 className="mt-4 mb-5 hero--subtitle" data-aos="fade-up" data-aos-delay="100">Инструктор йоги. Преподаватель медитации.</h4>
-                <Button className="btn-brand" data-aos="fade-up" data-aos-delay="200" href="#contacts">Поздароваться</Button>
+                
 
                 </Col>
             </Container>

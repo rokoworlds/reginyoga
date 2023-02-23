@@ -29,9 +29,9 @@ function Navigation() {
                     </Nav>
 
                     <Nav className="flex-row" > 
-                        <Nav.Link href="#Inst" target="_blank" className="social-icon"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
-                        <Nav.Link href="#Teleg" target="_blank" className="social-icon"><FontAwesomeIcon icon={faTelegram} /></Nav.Link>
-                        <Nav.Link href="#Vk" target="_blank" className="social-icon"><FontAwesomeIcon icon={faVk} /></Nav.Link>
+                        <Nav.Link href="https://www.instagram.com/regina.koropat/" target="_blank" className="social-icon"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
+                        <Nav.Link href="https://t.me/ReginYoga" target="_blank" className="social-icon"><FontAwesomeIcon icon={faTelegram} /></Nav.Link>
+                        <Nav.Link href="https://vk.com/yoganavdnh" target="_blank" className="social-icon"><FontAwesomeIcon icon={faVk} /></Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>

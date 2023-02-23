@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 function Gallery() {
     AOS.init({duration: 800})
     return (
-        <section className="section-padding section-connector" id="about">
+        <section data-aos="fade-up" className="section-padding section-connector" id="about">
             <Container fluid>
             <Row>
                     <Col data-aos="fade-up">

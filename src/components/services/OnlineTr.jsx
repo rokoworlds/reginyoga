@@ -10,7 +10,7 @@ function OnlineTr() {
 
   return (
     <>
-      <Button className="btn-brand" onClick={handleShow}>
+      <Button className="btn-courses" onClick={handleShow}>
         Подробнее
       </Button>
 

@@ -14,6 +14,7 @@
 
   --ff-primary: 'Montserrat', sans-serif;
   --ff-logo: 'Montez', cursive;
+  --ff-test: 'Roboto Slab', serif
 
   --bs: 0px 15px 40px rgba(0, 0, 0, 0.1); 
 
@@ -27,6 +28,10 @@ body {
 }
 
 /* dev-logo */
+.footer--social-icon > .nav-link {
+  color: white;
+  font-size: 1.5rem;
+}
 
 .dev-logo img {
   width: 200px;
@@ -57,6 +62,17 @@ h6,
 p {
   font-size: .9rem;
 }
+
+a {
+  text-decoration: none;
+  color: var(--clr-dark);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--clr-brand);
+}
+
 
 .section-padding {
   padding-top: 120px;
@@ -91,6 +107,7 @@ p {
 
 
 
+
 /* _________________ Navbar _________________ */
 
 .navbar {
@@ -119,14 +136,27 @@ p {
   font-weight: 600;
   font-size: .9rem;
 }
+.navbar-nav .nav-link.active, .navbar-nav .show >.nav-link {
+  color: white;
+}
+
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link.active:hover {
+  color: var(--clr-brand);
+}
 
 .nav-link:hover {
   color: var(--clr-brand);
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show >.nav-link {
-  color: var(--clr-brand);
-}
+
 
 .navbar-brand {
   font-size: 2rem;
@@ -174,9 +204,7 @@ p {
 
 } 
 
-.social-icon,
-.social-icon:active {
-  color: var(--clr-dark);
+.social-icon {
   border: 1px solid var(--clr-brand) ;
   width: 36px;
   height: 36px;
@@ -193,9 +221,6 @@ p {
   background-color: transparent;
 }
 
-.social-icon.active {
-  background-color: transparent;
-}
 
 /* _________________ Hero _________________ */
 
@@ -240,6 +265,9 @@ p {
   background-repeat: none;
 }
 
+.btn-courses-width {
+  width: 200px;
+}
 
 /* _________ BG _________ */
 
@@ -256,6 +284,7 @@ p {
 
 .hero--name {
   color: var(--clr-brand);
+  font-family: 'Roboto Slab', serif;
 }
 
 
@@ -295,8 +324,9 @@ p {
 .service-icon {
   width: 60px;
   height: 60px;
-  background-color: var(--clr-brand);
-  color: white;
+  background-color: white;
+  color: var(--clr-brand);
+  border: 1px solid var(--clr-brand);
   font-size: 28px;
   display: inline-flex;
   align-items: center;
@@ -308,7 +338,7 @@ p {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  color: var(--clr-dark);
+  color: var(--clr-brand);
 }
 
 .custom-link span {
@@ -335,6 +365,7 @@ p {
 
 .custom-link:hover {
   color: var(--clr-brand);
+  text-decoration: underline;
 }
 
 .service > p {
@@ -465,3 +496,14 @@ footer ul {
   padding-bottom: 40px;
 }
 
+/* _______________ Schedule _______________ */
+
+.schedule > ul {
+  list-style-type: none;
+}
+
+.schedule > h3 {
+  font-size: 1.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

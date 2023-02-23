@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 function Partners() {
     AOS.init({duration: 800})
     return (
-        <section className="section-padding section-connector" id="partners">
+        <section data-aos="fade-up" className="section-padding section-connector" id="partners">
             <Container>
                 <Row>
                     <Col data-aos="fade-up">

@@ -8,7 +8,7 @@ import Courses from "./services/Courses";
 function Education() {
     AOS.init({duration: 800})
     return (
-        <section className="section-padding section-connector" id="edu">
+        <section data-aos="fade-up" className="section-padding section-connector" id="edu">
         <Container>
         <Row>
                 <Col data-aos="fade-up">
@@ -19,9 +19,6 @@ function Education() {
                     И чтобы не остановливаться в этом движении, я всегда продолжаю учиться. Поэтому регулярно посещаю семинары и тренинги повышения квалификации российских и
                     зарубежных мастеров (Р.Гамментхаллер, Суриндер Сингх, А.Лунегова и др.).
                     </p>
-                    <Courses />
-                    <br/>
-                    <p>Тут можно подробнее узнать о моем обучении</p>
                     <div className="line"></div>
                 </div>
                 </Col>
@@ -77,6 +74,9 @@ function Education() {
                     </Row>
                 </Row>
             </Col>
+        </Row>
+        <Row className="mt-5 flex-d justify-content-center" data-aos="fade-up" data-aos-delay="300">
+            <Courses />
         </Row>
         
 

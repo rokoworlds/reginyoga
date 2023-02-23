@@ -6,7 +6,9 @@ import Partners from "./components/Partners"
 import Education from "./components/Education"
 import Blog from "./components/Blog"
 import Footer from "./components/Footer"
-import Namaste from "./components/Namaste"
+import Quote from "./components/Quote"
+import Schedule from "./components/Schedule"
+
 
 function App() {
 
@@ -15,11 +17,12 @@ function App() {
     <div >
       <Navigation />
       <Hero />
+      <Quote />
       <Services />
+      <Schedule />
       <Gallery />
       <Education />
       <Partners />
-      <Namaste />
       <Footer />
     </div>
   )

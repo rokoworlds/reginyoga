@@ -16,14 +16,12 @@ function Services() {
     AOS.init({duration: 800})
 
     return (
-        <section className="section-padding section-connector">
+        <section data-aos="fade-up" className="section-padding section-connector">
             <Container >
                 <Row>
                     <Col data-aos="fade-up">
                     <div className="section-title text-center">
                         <h1 id='services'>Услуги</h1>
-                        <p>«Йога для меня – про усмирение колебаний ума. Она к лучшему изменила качество моей жизни.
-                             Преподаю, так как хочу показать другим, как это может сделать каждый».</p>
                         <div className="line"></div>
                     </div>
                     </Col>

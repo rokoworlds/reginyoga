@@ -10,7 +10,7 @@ function Courses() {
 
   return (
     <>
-      <Button className="btn-courses" onClick={handleShow}>
+      <Button className="btn-courses btn-courses-width" onClick={handleShow}>
         Подробнее
       </Button>
 
