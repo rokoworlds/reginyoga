@@ -131,6 +131,18 @@ a:hover {
   box-shadow: none;
 }
 
+#main-nav > .nav-link{
+  color: var(--clr-dark);
+}
+
+#main-nav > .nav-link:visited {
+  color: var(--clr-dark);
+}
+
+#main-nav > .nav-link:hover {
+  color: var(--clr-brand);
+}
+
 .nav-link {
   color: var(--clr-dark);
   font-weight: 600;

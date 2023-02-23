@@ -22,8 +22,8 @@ function Navigation() {
                 <Navbar.Brand href="#home" className="logo-text">Regin<span>Yoga</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-between">
-                    <Nav className="mx-auto">
-                        <Nav.Link href="#home">Главная</Nav.Link>
+                    <Nav className="mx-auto main-nav" id='main-nav'>
+                        <Nav.Link href="#home" className="">Главная</Nav.Link>
                         <Nav.Link href="#services" >Услуги</Nav.Link>
                         <Nav.Link href="#contacts">Контакты</Nav.Link>
                     </Nav>
